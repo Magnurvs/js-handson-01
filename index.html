@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1,
+        h3 {
+            text-align: center;
+        }
+        
+        pre {
+            margin-left: 556px;
+            border: 2px solid black;
+            color: blueviolet;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Handson-01</h1>
+    <br><br>
+    <h3>Q1. Add two Numbers</h3>
+    <pre>
+        const AddTwoNumbers = (a,b) => {
+        let c=a+b;
+        return c;
+        };
+    </pre>
+
+    <br>
+    <br>
+    <h3>Q2 Find if the conditions are obeyed or not?</h3>
+    <pre>
+        const Is_Valid = (a,b) => {
+            if(a<10){
+              if(a>b){
+                return true;
+              }
+              else{
+                return false;
+              }
+            }
+            else{
+              return false;
+            }
+            
+          };
+    </pre>
+    <br><br>
+    <h3>Q3. Check the conditons</h3>
+    <pre>const Check = (A, B) => 
+        {
+          if((A%10==0) || (B%10==0)){
+            return true;
+          }
+          else{
+            return false;
+          }
+        };</pre>
+
+    <br><br>
+    <h3>Q4. Find the first digit of a 4 digit number</h3>
+    <pre>
+        const First_Digit = (n) => {
+          return(Math.floor(n/1000));
+        };</pre>
+
+    <br><br>
+    <h3>Q5. Find the last digit of a 4 digit number</h3>
+    <pre>const Last_Digit = (n) => {
+        return(Math.floor(n%10));
+      };
+      </pre>
+
+    <br><br>
+    <h3>Q6. Find the remainder</h3>
+    <pre>const Find_the_remainder = (a,b) => {
+        return(b % a);
+      };
+      </pre>
+    <br><br>
+    <h3>Q7. Multipy two Numbers</h3>
+    <pre>const Multiply_two_number = (a,b) => {
+        return(a*b);
+    };</pre>
+
+    <br><br>
+    <h3>Q8. Marks Calculator</h3>
+    <pre>const Sum = (A, B, C) => 
+        {
+         return(A+B+C);
+        };
+        
+        const Average = (A, B, C) => 
+        {
+         return((A+B+C)/3);
+        };</pre>
+
+
+
+
+</body>
+
+</html>
